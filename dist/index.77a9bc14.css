@@ -1,0 +1,239 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: meiryo;
+  src: url('Meiryo-UI-W53-Regular.b9a5ca38.woff') format('woff');
+}
+
+@font-face {
+  font-family: meiryo;
+  src: url('Meiryo-UI-W53-Bold.ab364856.woff') format('woff');
+  font-weight: bold;
+}
+
+:root {
+  --black-color: #000;
+  --white-color: #fff;
+  --light-brown-color: #6b5311;
+  --regular-brown-color: #5f4e1c;
+  --dark-brown-color: #322707;
+  --border-navbar-color: #6a6a6a;
+  --border-title-color: #868686;
+  --border-map-color: #c2bdb0;
+  --text-title-color: #1d1502;
+  --text-navbar-color: #54410c;
+  --text-contact-color: #fffdf8;
+}
+
+a {
+  text-decoration: none;
+}
+
+.h1 {
+  color: var(--text-title-color);
+  font-family: meiryo, sans-serif;
+  font-size: 28px;
+  line-height: 42px;
+}
+
+.h2 {
+  color: var(--text-title-color);
+  font-family: meiryo, sans-serif;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.h3 {
+  color: var(--text-title-color);
+  font-family: meiryo, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.h4 {
+  font-family: meiryo, sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.text-content {
+  font-family: meiryo, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.text-navbar-color {
+  color: var(--text-navbar-color);
+}
+
+.text-contact-color {
+  color: var(--text-contact-color);
+}
+
+.regular-text {
+  font-weight: 400;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.favicon {
+  margin: 20px;
+}
+
+.container {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.container-nav {
+  width: 100%;
+  border-style: solid;
+  border-width: 2px 0;
+  border-color: var(--border-navbar-color);
+  padding: 1rem 0;
+}
+
+.nav {
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  display: flex;
+}
+
+.nav-item--home {
+  color: var(--black-color);
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=index.77a9bc14.css.map */

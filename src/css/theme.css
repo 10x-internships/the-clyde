@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'meiryo';
+  src: url('../assets/fonts/Meiryo-UI-W53-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'meiryo';
+  src: url('../assets/fonts/Meiryo-UI-W53-Bold.woff') format('woff');
+  font-weight: bold;
+}
+:root {
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --light-brown-color: #6b5311;
+  --regular-brown-color: #5f4e1c;
+  --dark-brown-color: #322707;
+  --border-navbar-color: #6a6a6a;
+  --border-title-color: #868686;
+  --border-map-color: #c2bdb0;
+  --text-title-color: #1d1502;
+  --text-navbar-color: #54410c;
+  --text-contact-color: #fffdf8;
+}
+a {
+  text-decoration: none;
+}
+.h1 {
+  font-family: 'meiryo', sans-serif;
+  font-size: 28px;
+  line-height: 42px;
+  color: var(--text-title-color);
+}
+.h2 {
+  font-family: 'meiryo', sans-serif;
+  font-size: 20px;
+  line-height: 35px;
+  color: var(--text-title-color);
+}
+.h3 {
+  font-family: 'meiryo', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--text-title-color);
+}
+.h4 {
+  font-family: 'meiryo', sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+}
+.text-content {
+  font-family: 'meiryo', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+}
+.text-navbar-color {
+  color: var(--text-navbar-color);
+}
+.text-contact-color {
+  color: var(--text-contact-color);
+}
+.regular-text {
+  font-weight: 400;
+}
+.bold-text {
+  font-weight: 700;
+}
+.favicon {
+  margin: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
