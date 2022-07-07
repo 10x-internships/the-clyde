@@ -160,34 +160,34 @@ a {
 .h1 {
   color: var(--text-title-color);
   font-family: meiryo, sans-serif;
-  font-size: 28px;
-  line-height: 42px;
+  font-size: 1.65rem;
+  line-height: 2.5rem;
 }
 
 .h2 {
   color: var(--text-title-color);
   font-family: meiryo, sans-serif;
-  font-size: 20px;
-  line-height: 35px;
+  font-size: 1.375rem;
+  line-height: 2.25rem;
 }
 
 .h3 {
   color: var(--text-title-color);
   font-family: meiryo, sans-serif;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 1.375rem;
+  line-height: 1.875rem;
 }
 
 .h4 {
   font-family: meiryo, sans-serif;
-  font-size: 20px;
-  line-height: 23px;
+  font-size: 1.375rem;
+  line-height: 1.5rem;
 }
 
 .text-content {
   font-family: meiryo, sans-serif;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-navbar-color {
@@ -216,6 +216,10 @@ a {
   display: flex;
 }
 
+.section {
+  margin: 4rem 0;
+}
+
 .container-nav {
   width: 100%;
   border-style: solid;
@@ -234,6 +238,51 @@ a {
 .nav-item--home {
   color: var(--black-color);
   font-weight: 700;
+}
+
+.lounge {
+  border-bottom: 3px solid var(--black-color);
+  padding: 0 1.5rem;
+}
+
+.products-container {
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(6, 1fr);
+  margin-bottom: 4rem;
+  display: grid;
+}
+
+.product-logo {
+  justify-self: center;
+}
+
+.product-logo--drink {
+  grid-column: 1 / 4;
+}
+
+.product-logo--food {
+  grid-column: 4 / 7;
+}
+
+.product-logo--coffee {
+  grid-column: 3 / 6;
+  justify-self: start;
+}
+
+.container-lounge-title {
+  text-align: center;
+  border-style: solid;
+  border-width: 2px 0;
+  border-color: var(--border-title-color);
+  padding: 1rem 0;
+}
+
+.container-lounge-desc {
+  margin: 4rem 0;
+}
+
+.banner-img-mobile {
+  width: 100%;
 }
 
 /*# sourceMappingURL=index.77a9bc14.css.map */

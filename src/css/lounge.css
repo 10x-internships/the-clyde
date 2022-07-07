@@ -1,0 +1,34 @@
+.lounge {
+  padding: 0rem 1.5rem;
+  border-bottom: 3px solid var(--black-color);
+}
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 1fr;
+  margin-bottom: 4rem;
+}
+.product-logo {
+  justify-self: center;
+  /* width: 100%; */
+}
+.product-logo--drink {
+  grid-column: 1/4;
+}
+.product-logo--food {
+  grid-column: 4/7;
+}
+.product-logo--coffee {
+  justify-self: start;
+  grid-column: 3/6;
+}
+.container-lounge-title {
+  text-align: center;
+  border-width: 2px 0px;
+  border-style: solid;
+  border-color: var(--border-title-color);
+  padding: 1rem 0rem;
+}
+.container-lounge-desc {
+  margin: 4rem 0rem;
+}

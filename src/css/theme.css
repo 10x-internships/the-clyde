@@ -26,31 +26,31 @@ a {
 }
 .h1 {
   font-family: 'meiryo', sans-serif;
-  font-size: 28px;
-  line-height: 42px;
+  font-size: 1.65rem;
+  line-height: 2.5rem;
   color: var(--text-title-color);
 }
 .h2 {
   font-family: 'meiryo', sans-serif;
-  font-size: 20px;
-  line-height: 35px;
+  font-size: 1.375rem;
+  line-height: 2.25rem;
   color: var(--text-title-color);
 }
 .h3 {
   font-family: 'meiryo', sans-serif;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 1.375rem;
+  line-height: 1.875rem;
   color: var(--text-title-color);
 }
 .h4 {
   font-family: 'meiryo', sans-serif;
-  font-size: 20px;
-  line-height: 23px;
+  font-size: 1.375rem;
+  line-height: 1.5rem;
 }
 .text-content {
   font-family: 'meiryo', sans-serif;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 .text-navbar-color {
   color: var(--text-navbar-color);
@@ -71,4 +71,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.section {
+  margin: 4rem 0;
 }
