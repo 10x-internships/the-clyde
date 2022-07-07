@@ -74,4 +74,7 @@ a {
 }
 .section {
   margin: 4rem 0;
+  padding: 0rem 1.5rem;
+  padding-bottom: 3rem;
+  border-bottom: 3px solid var(--black-color);
 }

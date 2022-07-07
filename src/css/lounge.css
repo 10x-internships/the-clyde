@@ -1,6 +1,4 @@
 .lounge {
-  padding: 0rem 1.5rem;
-  border-bottom: 3px solid var(--black-color);
 }
 .products-container {
   display: grid;
@@ -22,7 +20,8 @@
   justify-self: start;
   grid-column: 3/6;
 }
-.container-lounge-title {
+.container-title {
+  /* width: 21.875rem; */
   text-align: center;
   border-width: 2px 0px;
   border-style: solid;
@@ -30,5 +29,5 @@
   padding: 1rem 0rem;
 }
 .container-lounge-desc {
-  margin: 4rem 0rem;
+  margin-top: 4rem;
 }

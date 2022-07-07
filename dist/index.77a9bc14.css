@@ -217,7 +217,9 @@ a {
 }
 
 .section {
+  border-bottom: 3px solid var(--black-color);
   margin: 4rem 0;
+  padding: 0 1.5rem 3rem;
 }
 
 .container-nav {
@@ -238,11 +240,6 @@ a {
 .nav-item--home {
   color: var(--black-color);
   font-weight: 700;
-}
-
-.lounge {
-  border-bottom: 3px solid var(--black-color);
-  padding: 0 1.5rem;
 }
 
 .products-container {
@@ -269,7 +266,7 @@ a {
   justify-self: start;
 }
 
-.container-lounge-title {
+.container-title {
   text-align: center;
   border-style: solid;
   border-width: 2px 0;
@@ -278,11 +275,16 @@ a {
 }
 
 .container-lounge-desc {
-  margin: 4rem 0;
+  margin-top: 4rem;
 }
 
 .banner-img-mobile {
   width: 100%;
+}
+
+.menu-img {
+  width: 100%;
+  margin: 2rem 0;
 }
 
 /*# sourceMappingURL=index.77a9bc14.css.map */
