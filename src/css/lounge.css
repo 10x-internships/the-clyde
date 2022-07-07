@@ -1,27 +1,24 @@
-.lounge {
-}
 .products-container {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   grid-template-rows: 1fr 1fr;
+  gap: 1rem;
   margin-bottom: 4rem;
 }
 .product-logo {
   justify-self: center;
-  /* width: 100%; */
 }
 .product-logo--drink {
-  grid-column: 1/4;
+  grid-column: 1/5;
 }
 .product-logo--food {
-  grid-column: 4/7;
+  grid-column: 5/9;
 }
 .product-logo--coffee {
   justify-self: start;
   grid-column: 3/6;
 }
 .container-title {
-  /* width: 21.875rem; */
   text-align: center;
   border-width: 2px 0px;
   border-style: solid;

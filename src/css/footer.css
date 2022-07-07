@@ -1,0 +1,46 @@
+.footer {
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--dark-brown-color);
+}
+.container-map {
+  border: 2px solid var(--border-map-color);
+  padding: 0.75rem;
+}
+.container-working-time {
+  margin: 1rem 1rem;
+  padding: 1rem 1.25rem;
+  text-align: center;
+  background-color: var(--regular-brown-color);
+}
+.container-contacts {
+  margin: 0.5rem 0;
+}
+.container-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--white-color);
+}
+.container-copyright {
+  font-family: Georgia, serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.45rem;
+  text-align: center;
+  padding: 1.1rem 0;
+  width: 100%;
+  background-color: var(--black-color);
+}
+.copyright-mobile {
+  color: white;
+
+  width: 100%;
+}
+.copyright-desktop {
+  display: none;
+}

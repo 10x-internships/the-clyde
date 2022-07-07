@@ -216,6 +216,10 @@ a {
   display: flex;
 }
 
+.container-body {
+  padding: 2rem 0;
+}
+
 .section {
   border-bottom: 3px solid var(--black-color);
   margin: 4rem 0;
@@ -244,7 +248,8 @@ a {
 
 .products-container {
   grid-template-rows: 1fr 1fr;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(8, 1fr);
+  gap: 1rem;
   margin-bottom: 4rem;
   display: grid;
 }
@@ -254,11 +259,11 @@ a {
 }
 
 .product-logo--drink {
-  grid-column: 1 / 4;
+  grid-column: 1 / 5;
 }
 
 .product-logo--food {
-  grid-column: 4 / 7;
+  grid-column: 5 / 9;
 }
 
 .product-logo--coffee {
@@ -285,6 +290,67 @@ a {
 .menu-img {
   width: 100%;
   margin: 2rem 0;
+}
+
+.reservation {
+  margin: 0 1rem;
+}
+
+.reservation img {
+  width: 100%;
+}
+
+.footer {
+  background-color: var(--dark-brown-color);
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 1.5rem;
+  display: flex;
+}
+
+.container-map {
+  border: 2px solid var(--border-map-color);
+  padding: 0.75rem;
+}
+
+.container-working-time {
+  text-align: center;
+  background-color: var(--regular-brown-color);
+  margin: 1rem;
+  padding: 1rem 1.25rem;
+}
+
+.container-contacts {
+  margin: 0.5rem 0;
+}
+
+.container-contact {
+  color: var(--white-color);
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  display: flex;
+}
+
+.container-copyright {
+  text-align: center;
+  width: 100%;
+  background-color: var(--black-color);
+  padding: 1.1rem 0;
+  font-family: Georgia, serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.45rem;
+}
+
+.copyright-mobile {
+  color: #fff;
+  width: 100%;
+}
+
+.copyright-desktop {
+  display: none;
 }
 
 /*# sourceMappingURL=index.77a9bc14.css.map */

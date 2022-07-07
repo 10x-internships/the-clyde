@@ -8,6 +8,9 @@
   src: url('../assets/fonts/Meiryo-UI-W53-Bold.woff') format('woff');
   font-weight: bold;
 }
+/* @font-face {
+  font-family: Georgia;
+} */
 :root {
   --black-color: #000000;
   --white-color: #ffffff;
@@ -71,6 +74,9 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.container-body {
+  padding: 2rem 0rem;
 }
 .section {
   margin: 4rem 0;
