@@ -1,0 +1,48 @@
+.container-menu-body {
+  text-align: center;
+  margin: 4rem 0;
+}
+.container-dishes {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 4rem 1rem;
+  gap: 5rem;
+}
+.container-dish {
+  padding: 2.75rem 1.25rem;
+  border: 2px solid #4a4a4a;
+  text-align: center;
+}
+.container-dish-inner {
+}
+.dish-img {
+  width: 100%;
+}
+.dish-logo {
+}
+.container-dish-name {
+  margin: 1rem 0;
+  text-align: center;
+}
+.dish-name {
+}
+.container-decor {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.container-lines {
+  width: 100%;
+}
+.container-lines hr {
+  margin: 0.25rem;
+}
+.container-dish-price {
+  margin-bottom: 1rem;
+}
+.container-dish-desc {
+  margin: 1rem 0;
+  text-align: start;
+}
+.container-dish-logo {
+}

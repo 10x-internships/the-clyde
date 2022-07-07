@@ -55,6 +55,9 @@ a {
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
+.text-title-color {
+  color: var(--text-title-color);
+}
 .text-navbar-color {
   color: var(--text-navbar-color);
 }
@@ -84,9 +87,16 @@ a {
   padding-bottom: 3rem;
   border-bottom: 3px solid var(--black-color);
 }
+.btn {
+  width: 18.75rem;
+  height: 3.75rem;
+  color: var(--text-contact-color);
+  background-color: var(--light-brown-color);
+}
 @media screen and (min-width: 1024px) {
   .container {
     max-width: 50rem;
+
     margin: auto;
   }
 }

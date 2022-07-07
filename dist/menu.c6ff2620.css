@@ -1,0 +1,449 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: meiryo;
+  src: url('Meiryo-UI-W53-Regular.b9a5ca38.woff') format('woff');
+}
+
+@font-face {
+  font-family: meiryo;
+  src: url('Meiryo-UI-W53-Bold.ab364856.woff') format('woff');
+  font-weight: bold;
+}
+
+:root {
+  --black-color: #000;
+  --white-color: #fff;
+  --light-brown-color: #6b5311;
+  --regular-brown-color: #5f4e1c;
+  --dark-brown-color: #322707;
+  --border-navbar-color: #6a6a6a;
+  --border-title-color: #868686;
+  --border-map-color: #c2bdb0;
+  --text-title-color: #1d1502;
+  --text-navbar-color: #54410c;
+  --text-contact-color: #fffdf8;
+}
+
+a {
+  text-decoration: none;
+}
+
+.h1 {
+  color: var(--text-title-color);
+  font-family: meiryo, sans-serif;
+  font-size: 1.65rem;
+  line-height: 2.5rem;
+}
+
+.h2 {
+  color: var(--text-title-color);
+  font-family: meiryo, sans-serif;
+  font-size: 1.375rem;
+  line-height: 2.25rem;
+}
+
+.h3 {
+  color: var(--text-title-color);
+  font-family: meiryo, sans-serif;
+  font-size: 1.375rem;
+  line-height: 1.875rem;
+}
+
+.h4 {
+  font-family: meiryo, sans-serif;
+  font-size: 1.375rem;
+  line-height: 1.5rem;
+}
+
+.text-content {
+  font-family: meiryo, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-title-color {
+  color: var(--text-title-color);
+}
+
+.text-navbar-color {
+  color: var(--text-navbar-color);
+}
+
+.text-contact-color {
+  color: var(--text-contact-color);
+}
+
+.regular-text {
+  font-weight: 400;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.favicon {
+  margin: 20px;
+}
+
+.container {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.container-body {
+  padding: 2rem 0;
+}
+
+.section {
+  border-bottom: 3px solid var(--black-color);
+  margin: 4rem 0;
+  padding: 0 1.5rem 3rem;
+}
+
+.btn {
+  width: 18.75rem;
+  height: 3.75rem;
+  color: var(--text-contact-color);
+  background-color: var(--light-brown-color);
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 50rem;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 65rem;
+  }
+}
+
+.navbar {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.container-nav {
+  width: 100%;
+  border-style: solid;
+  border-width: 2px 0;
+  border-color: var(--border-navbar-color);
+  padding: 1rem 0;
+}
+
+.nav {
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  display: flex;
+}
+
+.nav-item--home {
+  color: var(--black-color);
+  font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+  .nav {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+  }
+}
+
+.reservation {
+  margin: 0 1rem;
+}
+
+.reservation img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .reservation {
+    max-width: 25rem;
+    margin: auto auto 4rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .reservation {
+    max-width: 35rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .reservation {
+    max-width: 40rem;
+  }
+}
+
+.footer {
+  background-color: var(--dark-brown-color);
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 1.5rem;
+  display: flex;
+}
+
+.container-map {
+  border: 2px solid var(--border-map-color);
+  padding: 0.75rem;
+}
+
+.map-desktop {
+  display: none;
+}
+
+.container-working-time {
+  text-align: center;
+  background-color: var(--regular-brown-color);
+  margin: 1rem;
+  padding: 1rem 1.25rem;
+}
+
+.container-contacts {
+  margin: 0.5rem 0;
+}
+
+.container-contact {
+  color: var(--white-color);
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  display: flex;
+}
+
+.container-copyright {
+  text-align: center;
+  width: 100%;
+  background-color: var(--black-color);
+  color: #fff;
+  padding: 1.1rem 0;
+  font-family: Georgia, serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.45rem;
+}
+
+.copyright-desktop,
+.footer-logo-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .container-working-time {
+    padding: 1px 3rem;
+  }
+
+  .copyright-mobile {
+    display: none;
+  }
+
+  .copyright-desktop {
+    display: block;
+  }
+
+  .map-mobile {
+    display: none;
+  }
+
+  .map-desktop {
+    display: block;
+  }
+
+  .footer-logo-mobile {
+    display: none;
+  }
+
+  .footer-logo-desktop {
+    display: block;
+  }
+}
+
+.container-menu-body {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.container-dishes {
+  grid-template-columns: 1fr;
+  gap: 5rem;
+  margin: 4rem 1rem;
+  display: grid;
+}
+
+.container-dish {
+  text-align: center;
+  border: 2px solid #4a4a4a;
+  padding: 2.75rem 1.25rem;
+}
+
+.dish-img {
+  width: 100%;
+}
+
+.container-dish-name {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.container-decor {
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.container-lines {
+  width: 100%;
+}
+
+.container-lines hr {
+  margin: 0.25rem;
+}
+
+.container-dish-price {
+  margin-bottom: 1rem;
+}
+
+.container-dish-desc {
+  text-align: start;
+  margin: 1rem 0;
+}
+
+/*# sourceMappingURL=menu.c6ff2620.css.map */
