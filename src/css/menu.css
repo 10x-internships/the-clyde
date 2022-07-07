@@ -2,3 +2,28 @@
   margin: 2rem 0rem;
   width: 100%;
 }
+.container-desktop-menu-img {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .container-mobile-menu-img {
+    max-width: 25rem;
+  }
+  /* .menu-img {
+    margin: auto;
+  } */
+}
+@media screen and (min-width: 1024px) {
+  .container-desktop-menu-img {
+    display: block;
+    max-width: 35rem;
+  }
+  .container-mobile-menu-img {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container-desktop-menu-img {
+    max-width: 35rem;
+  }
+}

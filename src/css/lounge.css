@@ -28,3 +28,26 @@
 .container-lounge-desc {
   margin-top: 4rem;
 }
+@media screen and (min-width: 768px) {
+  .container-title {
+    max-width: 19.25rem;
+    margin: auto;
+  }
+  .product-logo--coffee {
+    justify-self: center;
+    grid-column: 4/6;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* .lounge {
+    max-width: 40rem;
+  } */
+  .products-container {
+    display: flex;
+    justify-content: center;
+  }
+  .product-logo {
+    grid-column: unset;
+    justify-self: center;
+  }
+}

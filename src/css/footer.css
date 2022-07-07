@@ -10,6 +10,9 @@
   border: 2px solid var(--border-map-color);
   padding: 0.75rem;
 }
+.map-desktop {
+  display: none;
+}
 .container-working-time {
   margin: 1rem 1rem;
   padding: 1rem 1.25rem;
@@ -35,12 +38,34 @@
   padding: 1.1rem 0;
   width: 100%;
   background-color: var(--black-color);
-}
-.copyright-mobile {
   color: white;
-
-  width: 100%;
 }
 .copyright-desktop {
   display: none;
+}
+.footer-logo-desktop {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .container-working-time {
+    padding: 1 3rem;
+  }
+  .copyright-mobile {
+    display: none;
+  }
+  .copyright-desktop {
+    display: block;
+  }
+  .map-mobile {
+    display: none;
+  }
+  .map-desktop {
+    display: block;
+  }
+  .footer-logo-mobile {
+    display: none;
+  }
+  .footer-logo-desktop {
+    display: block;
+  }
 }

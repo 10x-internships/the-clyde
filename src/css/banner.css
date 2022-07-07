@@ -4,3 +4,15 @@
 .banner-img-mobile {
   width: 100%;
 }
+.banner-img-desktop {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .banner-img-mobile {
+    display: none;
+  }
+  .banner-img-desktop {
+    display: block;
+    width: 100%;
+  }
+}
