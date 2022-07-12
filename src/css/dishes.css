@@ -6,25 +6,20 @@
   display: grid;
   grid-template-columns: 1fr;
   margin: 4rem 1rem;
-  gap: 5rem;
+  row-gap: 5rem;
+  column-gap: 2rem;
 }
 .container-dish {
   padding: 2.75rem 1.25rem;
   border: 2px solid #4a4a4a;
   text-align: center;
 }
-.container-dish-inner {
-}
 .dish-img {
-  width: 100%;
-}
-.dish-logo {
+  max-width: 18.75rem;
 }
 .container-dish-name {
   margin: 1rem 0;
   text-align: center;
-}
-.dish-name {
 }
 .container-decor {
   display: flex;
@@ -44,5 +39,23 @@
   margin: 1rem 0;
   text-align: start;
 }
-.container-dish-logo {
+@media screen and (min-width: 768px) {
+  .container-dishes {
+    max-width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container-dishes {
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+    max-width: 57rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container-dishes {
+    max-width: 65rem;
+  }
 }

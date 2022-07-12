@@ -1,3 +1,38 @@
+.navbar {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.container-nav {
+  width: 100%;
+  border-style: solid;
+  border-width: 2px 0;
+  border-color: var(--border-navbar-color);
+  padding: 1rem 0;
+}
+
+.nav {
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  display: flex;
+}
+
+.nav-item--home {
+  color: var(--black-color);
+  font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+  .nav {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+  }
+}
+
 html,
 body,
 div,
@@ -250,41 +285,6 @@ a {
   }
 }
 
-.navbar {
-  flex-direction: column;
-  align-items: center;
-  display: flex;
-}
-
-.container-nav {
-  width: 100%;
-  border-style: solid;
-  border-width: 2px 0;
-  border-color: var(--border-navbar-color);
-  padding: 1rem 0;
-}
-
-.nav {
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
-  display: flex;
-}
-
-.nav-item--active {
-  color: var(--black-color);
-  font-weight: 700;
-}
-
-@media screen and (min-width: 1024px) {
-  .nav {
-    width: 100%;
-    flex-direction: row;
-    justify-content: center;
-    gap: 3rem;
-  }
-}
-
 .reservation {
   margin: 0 1rem;
 }
@@ -317,7 +317,6 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  margin-top: 5rem;
   padding-top: 1.5rem;
   display: flex;
 }
@@ -404,7 +403,7 @@ a {
 
 .container-dishes {
   grid-template-columns: 1fr;
-  gap: 5rem 2rem;
+  gap: 5rem;
   margin: 4rem 1rem;
   display: grid;
 }
@@ -416,7 +415,7 @@ a {
 }
 
 .dish-img {
-  max-width: 18.75rem;
+  width: 100%;
 }
 
 .container-dish-name {
@@ -447,27 +446,4 @@ a {
   margin: 1rem 0;
 }
 
-@media screen and (min-width: 768px) {
-  .container-dishes {
-    max-width: 25rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .container-dishes {
-    max-width: 57rem;
-    grid-template-columns: 1fr 1fr;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container-dishes {
-    max-width: 65rem;
-  }
-}
-
-/*# sourceMappingURL=menu.c6ff2620.css.map */
+/*# sourceMappingURL=index.c6ff2620.css.map */
